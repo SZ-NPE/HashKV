@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/HdrHistogram_c-0.9.4/src/hdr_histogram.h
+stdint.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+../lib/HdrHistogram_c-0.9.4/src/hdr_time.h
+math.h
+-
+time.h
+-
+
+/home/tiger/Workspace/HashKV/lib/HdrHistogram_c-0.9.4/test/hdr_histogram_perf.c
+stdint.h
+-
+stdlib.h
+-
+stdio.h
+-
+hdr_histogram.h
+-
+locale.h
+-
+hdr_time.h
+/home/tiger/Workspace/HashKV/lib/HdrHistogram_c-0.9.4/test/hdr_time.h
+windows.h
+-
+

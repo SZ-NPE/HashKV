@@ -3,7 +3,7 @@
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include "../util/debug.hh"
+#include "util/debug.hh"
 #include "deviceManager.hh"
 #include "statsRecorder.hh"
 

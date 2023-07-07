@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/leveldb/include/leveldb/c.h
+stdarg.h
+-
+stddef.h
+-
+stdint.h
+-
+leveldb/export.h
+../lib/leveldb/include/leveldb/leveldb/export.h
+
+../lib/leveldb/include/leveldb/export.h
+
+/home/tiger/Workspace/HashKV/lib/leveldb/db/c_test.c
+leveldb/c.h
+/home/tiger/Workspace/HashKV/lib/leveldb/db/leveldb/c.h
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

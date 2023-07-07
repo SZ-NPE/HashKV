@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "../util/debug.hh"
-#include "../util/timer.hh"
+#include "util/debug.hh"
+#include "util/timer.hh"
 #include "kvServer.hh"
 #include "leveldbKeyManager.hh"
 #include "statsRecorder.hh"
