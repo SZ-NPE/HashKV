@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wmissing-prototypes -D_GNU_SOURCE  -rdynamic CMakeFiles/hdr_decoder.dir/hdr_decoder.c.o  -o hdr_decoder -Wl,-rpath,/home/tiger/Workspace/HashKV/build/lib/HdrHistogram_c-0.9.4/src: ../src/libhdr_histogram.so.1.0.0 -lm -lz -lrt 

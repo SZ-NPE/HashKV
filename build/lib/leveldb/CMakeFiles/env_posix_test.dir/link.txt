@@ -1,1 +1,0 @@
-/usr/bin/c++   -pipe -std=c++17 -fno-exceptions -fno-rtti   CMakeFiles/env_posix_test.dir/util/testutil.cc.o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o  -o env_posix_test libleveldb.a ../libgmock.a ../libgtest.a -pthread 

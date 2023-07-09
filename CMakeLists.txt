@@ -52,6 +52,7 @@ target_link_libraries(hashkv leveldb)
 
 target_link_libraries (hashkv ${Boost_LIBRARIES})
 target_link_libraries(hashkv ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(hashkv hdr_histogram)
 
 add_executable(hashkv_test src/tests/hashkv_test.cc)
-target_link_libraries(hashkv_test hashkv hdr_histogram)
+target_link_libraries(hashkv_test hashkv)

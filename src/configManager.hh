@@ -102,6 +102,8 @@ private:
 
     boost::property_tree::ptree _pt;
 
+public:
+
     struct {
         segment_len_t mainSegmentSize;        // no. of blocks per main segment
         segment_len_t logSegmentSize;         // no. of blocks per log segment
