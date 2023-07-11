@@ -14,7 +14,7 @@
 #include "enum.hh"
 
 // diskManager
-//#define DISK_DIRECT_IO  
+#define DISK_DIRECT_IO  
 //#define PAGE_ALIGN
 #define DISK_BLKSIZE    (512)
 #define DIRECT_LBA_SEGMENT_MAPPING    1
